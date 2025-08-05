@@ -5,7 +5,6 @@ import sys
 sys.path.append('/opt/airflow/src')
 
 from include.extract import load_universities
-from include.geocode import geocode_dataframe
 from include.spatial import filter_european_universities
 from include.viz import generate_folium_map
 
